@@ -2,7 +2,7 @@
     <aura:attribute name="objects" type="Object[]" />
     <div aura:id="aura-cmp">
         <div aura:id="searchBoxSection">
-        	<ui:inputText class="searchBox" aura:id="searchText" placeholder="Please Keyword..." keyup="{!c.doSearch}" updateOn="keyup" />
+        	<ui:inputText class="searchBox" aura:id="searchText" placeholder="Please Keyword...test" keyup="{!c.doSearch}" updateOn="keyup" />
         </div>
         <div aura:id="bookListSection">
             <aura:iteration items="{!v.objects}" var="item">
